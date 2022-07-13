@@ -1,14 +1,41 @@
-.topheader {
-  margin: auto;
-  background-color: #2C9AB7;
-  background-image: url('./images/lesson04-mock2-banner-image.jpg');
-  overflow: hidden;
+body {
   font-family: sans-serif;
-  color: white;
+  color: #3A3A3A;
+}
+
+.topheader {
+  width: 100%;
+  background-color: #2C9AB7;
+  overflow: hidden;
   text-decoration: none;
 }
 
-.navlinks {
+h1 {
+  font-size: 50px;
+  color: white;
+  padding-left: 175px;
+}
+
+.headeremphasized {
+  padding-left: 175px;
+  font-size: 28px;
+  font-style: italic;
+  color: white;
+}
+
+.wrapperheader > * {
+  display: inline-block;
+}
+
+.navbar {
+  background-color: #EBEBEB;
+  padding-left: 145px;
+  width: 100%;
+  font-size: 20px;
+  float: left;
+}
+
+li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,10 +43,8 @@
 }
 
  .navlinks a {
-  font-size: 20px;
-  font-family: arial, sans-serif;
-  color: darkgrey;
-  margin-right: 18px;
+  font-size: 15px;
+  color: #3A3A3A;
   text-decoration: none;
 }
 
@@ -27,43 +52,32 @@
   color: white;
 }
 
-.navbar {
-  background-color: lightgrey;
-  margin: auto;
-  font-size: 20px;
-  margin: 50px 100px 30px 50px;
-  float: left;
+.emphasized {
+  font-style: italic;
 }
 
-.wrapperheader > * {
-  display: inline-block;
+.bottomfooter {
+    margin: auto;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    background-color: #3A3A3A;
+    overflow: hidden;
+    text-decoration: none;
 }
 
-#footer {
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:2em;
+.footernavlinks a {
+ font-size: 12px;
+ color: #FFFFFF;
+ text-decoration: none;
 }
 
-.footernavbar {
-  background-color: lightgrey;
-  margin: auto;
-  font-size: 20px;
-  margin: 50px 100px 30px 50px;
-  float: left;
+.footernavlinks a:hover {
+    color: #FFFFFF;
 }
 
-.footernavlinks {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
-
- .footernavlinks a {
-  font-size: 20px;
-  font-family: arial, sans-serif;
-  color: darkgrey;
-  margin-right: 18px;
-  text-decoration: none;
+.footertext {
+    font-size: 12px;
+    color: #FFFFFF;
 }
