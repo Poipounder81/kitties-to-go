@@ -1,0 +1,69 @@
+.topheader {
+  margin: auto;
+  background-color: #2C9AB7;
+  background-image: url('./images/lesson04-mock2-banner-image.jpg');
+  overflow: hidden;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.navlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+ .navlinks a {
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  color: darkgrey;
+  margin-right: 18px;
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+  color: white;
+}
+
+.navbar {
+  background-color: lightgrey;
+  margin: auto;
+  font-size: 20px;
+  margin: 50px 100px 30px 50px;
+  float: left;
+}
+
+.wrapperheader > * {
+  display: inline-block;
+}
+
+#footer {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+}
+
+.footernavbar {
+  background-color: lightgrey;
+  margin: auto;
+  font-size: 20px;
+  margin: 50px 100px 30px 50px;
+  float: left;
+}
+
+.footernavlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+ .footernavlinks a {
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  color: darkgrey;
+  margin-right: 18px;
+  text-decoration: none;
+}
