@@ -26,6 +26,23 @@ h1 {
   padding-left: 175px;
 }
 
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
 .headeremphasized {
   margin-top: 0px;
   border-top: 0px;
